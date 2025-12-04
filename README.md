@@ -2,48 +2,6 @@
 
 .NET 10 library for interacting with the GitHub REST API.
 
-## Features
-
-### Search API
-- Search repositories, code, issues, users, and commits
-- Full support for pagination and sorting
-
-### Repositories API
-- Get, create, update, and delete repositories
-- List user repositories
-- Manage branches, tags, and releases
-- View contributors and repository content
-- 13 endpoints implemented
-
-### Users API
-- Get user information (authenticated and public)
-- Manage followers
-- Email addresses management
-- SSH and GPG keys management
-- 13 endpoints implemented
-
-### Issues API
-- List, create, update, and manage issues
-- Lock/unlock issues
-- Comment management
-- Labels and milestones support
-- 14 endpoints implemented
-
-### Pull Requests API
-- List, create, update pull requests
-- Merge pull requests
-- Review management
-- Review comments
-- File changes tracking
-- 14 endpoints implemented
-
-### Gists API
-- Create, update, delete gists
-- Fork and star gists
-- Comment management
-- List commits and forks
-- 20 endpoints implemented
-
 ## Installation
 
 ```bash
