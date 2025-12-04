@@ -6,7 +6,7 @@
 
 ```bash
 # Add reference to your project
-dotnet add reference path/to/github.api.net.csproj
+dotnet add package githubapi.net
 ```
 
 ## Usage

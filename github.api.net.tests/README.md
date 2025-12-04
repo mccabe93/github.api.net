@@ -1,29 +1,29 @@
 # GitHub API .NET Tests
 
-This directory contains the comprehensive test suite for the GitHub API .NET library.
+This directory contains the test suite for the GitHub API .NET library.
 
 ## Test Organization
 
 ```
 github.api.net.tests/
-??? Base/                           # Base test infrastructure
-?   ??? TestBase.cs                # Base test class with configuration
-?   ??? GitHubApiTestFixture.cs    # Mocking and helper methods
-??? Clients/                        # Unit tests for API clients
-?   ??? SearchClientTests.cs       # Search API tests (8 tests)
-?   ??? RepositoriesClientTests.cs # Repositories API tests (10 tests)
-?   ??? UsersClientTests.cs        # Users API tests (14 tests)
-?   ??? IssuesClientTests.cs       # Issues API tests (14 tests)
-?   ??? PullRequestsClientTests.cs # Pull Requests API tests (14 tests)
-?   ??? GistsClientTests.cs        # Gists API tests (20 tests)
-??? Integration/                    # Integration tests
-?   ??? GitHubApiIntegrationTests.cs # End-to-end tests (8 tests)
-??? TestData/                       # Test data and sample responses
-?   ??? TestDataFactory.cs         # Factory for creating test objects
-?   ??? JsonResponseSamples/       # Sample JSON responses from GitHub API
-??? Configuration files
-    ??? appsettings.json           # Test configuration
-    ??? github.api.net.tests.runsettings # Test runner settings
+- Base/                           # Base test infrastructure
+    - TestBase.cs                # Base test class with configuration
+    - GitHubApiTestFixture.cs    # Mocking and helper methods
+- Clients/                        # Unit tests for API clients
+    - SearchClientTests.cs       # Search API tests (8 tests)
+    - RepositoriesClientTests.cs # Repositories API tests (10 tests)
+    - UsersClientTests.cs        # Users API tests (14 tests)
+    - IssuesClientTests.cs       # Issues API tests (14 tests)
+    - PullRequestsClientTests.cs # Pull Requests API tests (14 tests)
+    - GistsClientTests.cs        # Gists API tests (20 tests)
+- Integration/                    # Integration tests
+    - GitHubApiIntegrationTests.cs # End-to-end tests (8 tests)
+- TestData/                       # Test data and sample responses
+    - TestDataFactory.cs         # Factory for creating test objects
+    - JsonResponseSamples/       # Sample JSON responses from GitHub API
+- Configuration files
+    - appsettings.json           # Test configuration
+    - github.api.net.tests.runsettings # Test runner settings
 ```
 
 ## Running Tests

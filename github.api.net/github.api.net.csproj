@@ -13,6 +13,7 @@
     <PackageTags>github;api;.net;</PackageTags>
     <PackageId>githubapi.net</PackageId>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Copyright>N/A</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
