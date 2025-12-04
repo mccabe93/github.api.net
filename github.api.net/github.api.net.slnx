@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../github.api.net.tests/github.api.net.tests.csproj" />
+  <Project Path="github.api.net.csproj" />
+</Solution>
