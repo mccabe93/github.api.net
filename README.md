@@ -2,6 +2,15 @@
 
 .NET 10 library for interacting with the GitHub REST API.
 
+## References
+
+Full documentation: 
+[github.api.net Documentation](https://deepwiki.com/mccabe93/github.api.net/)
+
+For more information on the GitHub API:
+- [GitHub REST API Documentation](https://docs.github.com/en/rest)
+- [GitHub API Best Practices](https://docs.github.com/en/rest/guides/best-practices-for-integrators)
+
 ## Installation
 
 ```bash
@@ -305,8 +314,3 @@ This project is open source under the MIT License. See the [LICENSE](LICENSE) fi
 ## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues.
-
-## Additional Resources
-
-- [GitHub REST API Documentation](https://docs.github.com/en/rest)
-- [GitHub API Best Practices](https://docs.github.com/en/rest/guides/best-practices-for-integrators)
